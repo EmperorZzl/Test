@@ -30,6 +30,8 @@ public class GestureLock extends View {
 
     private OnDrawFinishedListener listener;
 
+    
+
     float mouseX, mouseY;
 
     private float bitmapR = 0.0f;
