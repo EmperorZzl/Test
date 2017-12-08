@@ -1,4 +1,4 @@
-package com.jikexueyuan.screenlock;
+﻿package com.jikexueyuan.screenlock;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -21,6 +21,7 @@ public class SettingActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
+
         final GestureLock lock = (GestureLock)findViewById(R.id.LockView);
         Button btn_reset = (Button)findViewById(R.id.btn_reset);
         Button btn_save = (Button)findViewById(R.id.btn_save);
