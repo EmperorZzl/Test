@@ -1,4 +1,4 @@
-package com.jikexueyuan.screenlock;
+﻿package com.jikexueyuan.screenlock;
 
 /**
  * Created by 泽群 on 2015/6/20.
@@ -16,6 +16,7 @@ public class Point {
     {
         this.x = x;
         this.y = y;
+
     }
 
     public float distance(Point a)
